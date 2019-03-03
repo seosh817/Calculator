@@ -1,0 +1,47 @@
+1.
+var str: String = String str
+val str: String = final String str
+
+
+2.
+public int add(int num1, int num2)
+{
+}
+는
+fun add(num1: Int, num2: Int): Int
+{
+}
+3. 함수를 매개변수로 받는
+fun add(num1: Int, num2: Int) = num1 + num2
+{
+}
+
+fun test(funAdd: (Int, Int)-> Int) {
+}
+
+test(add)
+
+
+
+class Test(val num: Int) : 상속하고싶은 클래스 혹은 인터페이스 List() {
+	
+}
+
+fun cal(num1: Int., num2 : Int) 
+= if(num1 > num2) num1 - num2 else num2 - num1
+
+when(num1) {
+	1->
+	2->
+	3->
+	else ->
+
+
+fun main(args: Array<String>) {
+
+	val a = "Hello"
+	val b = "World"
+	val c = "$a, $b"
+	val c = "${a.fun()}, $b"
+	print(c)
+}
