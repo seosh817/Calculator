@@ -238,22 +238,16 @@ class MainActivity : AppCompatActivity() {
             flag = true
         }
         multiply.setOnClickListener {
-            input = (input.toInt() * adder.toInt()).toString()
-            inputText.setText(input)
             adder = "0"
             operator = "*"
             flag = true
         }
         divide.setOnClickListener {
-            input = (input.toInt() / adder.toInt()).toString()
-            inputText.setText(input)
             adder = "0"
             operator = "/"
             flag = true
         }
         remainder.setOnClickListener {
-            input = (input.toInt() % adder.toInt()).toString()
-            inputText.setText(input)
             adder = "0"
             operator = "%"
             flag = true
@@ -311,7 +305,7 @@ class MainActivity : AppCompatActivity() {
                     res = input.toInt() * adder.toInt()
                     input = res.toString()
                     inputText.setText(input)
-                    adder = "0"
+                    adder = "1"
                     input = "0"
                 }
                     "/" ->
@@ -320,7 +314,7 @@ class MainActivity : AppCompatActivity() {
                     res = input.toInt() / adder.toInt()
                     input = res.toString()
                     inputText.setText(input)
-                    adder = "0"
+                    adder = "1"
                     input = "0"
                 }
                 "%" ->
@@ -329,7 +323,7 @@ class MainActivity : AppCompatActivity() {
                     res = input.toInt() % adder.toInt()
                     input = res.toString()
                     inputText.setText(input)
-                    adder = "0"
+                    adder = "1"
                     input = "0"
                 }
 
