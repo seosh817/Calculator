@@ -224,15 +224,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
         plus.setOnClickListener {
-            input = (input.toInt() + adder.toInt()).toString()
-            inputText.setText(input)
             adder = "0"
             operator = "+"
             flag = true
         }
         minus.setOnClickListener {
-            input = (input.toInt() - adder.toInt()).toString()
-            inputText.setText(input)
             adder = "0"
             operator = "-"
             flag = true
@@ -305,7 +301,7 @@ class MainActivity : AppCompatActivity() {
                     res = input.toInt() * adder.toInt()
                     input = res.toString()
                     inputText.setText(input)
-                    adder = "1"
+                    adder = "0"
                     input = "0"
                 }
                     "/" ->
@@ -314,7 +310,7 @@ class MainActivity : AppCompatActivity() {
                     res = input.toInt() / adder.toInt()
                     input = res.toString()
                     inputText.setText(input)
-                    adder = "1"
+                    adder = "0"
                     input = "0"
                 }
                 "%" ->
@@ -323,7 +319,7 @@ class MainActivity : AppCompatActivity() {
                     res = input.toInt() % adder.toInt()
                     input = res.toString()
                     inputText.setText(input)
-                    adder = "1"
+                    adder = "0"
                     input = "0"
                 }
 
