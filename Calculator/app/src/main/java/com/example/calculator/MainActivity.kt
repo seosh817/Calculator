@@ -284,7 +284,6 @@ class MainActivity : AppCompatActivity() {
                     input = res.toString()
                     inputText.setText(input)
                     adder = "0"
-                    input = "0"
                 }
                 "-" ->
                 {
@@ -293,7 +292,6 @@ class MainActivity : AppCompatActivity() {
                     input = res.toString()
                     inputText.setText(input)
                     adder = "0"
-                    input = "0"
                 }
                 "*" ->
                 {
@@ -302,7 +300,6 @@ class MainActivity : AppCompatActivity() {
                     input = res.toString()
                     inputText.setText(input)
                     adder = "0"
-                    input = "0"
                 }
                     "/" ->
                 {
@@ -311,7 +308,6 @@ class MainActivity : AppCompatActivity() {
                     input = res.toString()
                     inputText.setText(input)
                     adder = "0"
-                    input = "0"
                 }
                 "%" ->
                 {
@@ -320,7 +316,6 @@ class MainActivity : AppCompatActivity() {
                     input = res.toString()
                     inputText.setText(input)
                     adder = "0"
-                    input = "0"
                 }
 
             }
