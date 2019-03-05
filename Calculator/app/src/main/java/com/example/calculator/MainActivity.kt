@@ -218,7 +218,7 @@ class MainActivity : AppCompatActivity() {
                     adder = "1"
                     inputText.setText(adder)
                 } else {
-                    adder = adder + "1" //
+                    adder = adder + "1" ///
                     inputText.setText(adder)
                 }
             }
